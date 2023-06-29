@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(245, 18, 226);
+}
+.container{
+    display: grid;
+    grid-row-gap: 55px;
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    border: 3px solid #f4efe8;
+    border-radius: 15px;
+    padding: 35px 40px;
+    background-color:rgb(18, 3, 24) ;
+    box-shadow: 0px 2px 10px purple;
+}
+
+#title{
+    background-color: rgb(233, 18, 204);
+    font-size: 400%;
+    font-family:"Roboto";
+    font-style:italic;
+    padding-top: 10px;
+    text-align: center;
+    color:#f4efe8(15, 2, 2, 0.863);
+    border-radius: 10px;
+}
+
+.btn #clear{
+    font-family: "Roboto";
+    font-style:italic;
+    width: 105%;
+    padding: 12px;
+    border: 1px solid #f4efe8;
+    border-radius: 12px;
+    background-color: rgb(226, 24, 176);
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: -10%;
+}
+
+#clear:hover, #convert:hover{
+    background-color: rgb(245, 18, 196);
+    color: white; 
+    font-weight: bold;  
+    color: aqua;
+}
+
+.convert_value input,.result input{
+    padding: 5px;
+    font-size: 200%;
+    font-family: monospace; 
+    background-color: white;  
+    color:rgb(12, 14, 12); 
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 200%;
+    font-family:"Roboto";  
+    color: white; 
+    font-style: italic;
+}
+
+select{
+    font-size: small;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    background-color:rgb(245, 18, 207);
+    margin: 2%;
+    color: rgb(0, 0, 0);
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: 200%;
+    font-family:"Roboto";
+    font-style: italic;
+    margin-left: 6cm;
+    color:#f4efe8;
+    margin-bottom:5px;
+} 
+
+#input_value{
+    width: 300px;
+    height: 40px; 
+    font-size: 120%;
+    font-family: monospace;
+    align-items: center;
+    margin-left: -0.7cm;
+
+
+}
+
+.convert_value{
+    font-size: 200%;
+    font-family:"Roboto";
+    margin: 1%;
+    align-items: center;
+    margin-left: 6cm;
+    color:white;
+    font-style: italic;
+}
+option{
+    width: 500px;
+    height: 50px; 
+    font-size: 180%;
+    font-family: monospace;
+    margin-left: -1.5cm;
+
+}
+#clear{
+    font-size: 100%;
+    font-family: monospace;
+    width: 25%;
+    right: 10%;
+    background-color: rgb(245, 18, 234);
+}
+
+#output,#res{
+    width: 300px;
+    height: 40px;
+    margin-left: -0.7cm;
+    font-size: 30px;
+
+}
